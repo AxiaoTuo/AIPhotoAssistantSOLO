@@ -1,0 +1,28 @@
+# FastAPI
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# Database
+sqlalchemy==2.0.25
+aiosqlite==0.19.0
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# AI Clients
+openai==1.12.0
+anthropic==0.18.0
+aiohttp==3.9.0
+httpx==0.26.0
+
+# Image Processing
+Pillow==10.2.0
+
+# Environment
+python-dotenv==1.0.0
+
+# Validation
+pydantic==2.6.0
+pydantic-settings==2.1.0
